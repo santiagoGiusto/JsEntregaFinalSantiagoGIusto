@@ -78,21 +78,6 @@ function agregarProducto(id, categoria) {
     renderBotonCarrito();
 }
 
-function verProducto (id, categoria) {
-    let productos;
-
-    if (categoria == "tintos") {
-        productos = cargarTintosLS();
-    } else if (categoria == "blancos") {
-        productos = cargarBlancosLS();
-    }
-
-    let producto = productos.find(item => item.id == id);
-    localStorage.setItem("producto", JSON.stringify(producto));
-
-    // location.href = "ver-producto.html"
-}
-
 function eliminarProducto(id) {
     const carrito = cargarCarritoLS();
      let pos = carrito.findIndex(item => item.id === id);
@@ -149,6 +134,20 @@ function sumaTotalProductos() {
     return carrito.reduce((acumulador, item) => acumulador += parseFloat(item.cantidad * item.precio), 0);
 }
 
+function verProducto (id, categoria) {
+    let productos;
+
+    if (categoria == "tintos") {
+        productos = cargarTintosLS();
+    } else if (categoria == "blancos") {
+        productos = cargarBlancosLS();
+    }
+
+    let producto = productos.find(item => item.id == id);
+    localStorage.setItem("producto", JSON.stringify(producto));
+
+    // location.href = "ver-producto.html"
+}
   
 
 

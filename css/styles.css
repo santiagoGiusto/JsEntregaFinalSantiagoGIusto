@@ -71,7 +71,7 @@ body {
   transition: transform 0.5s;
 }
 .catalogo-productos .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .descripcionProductoDiv {
@@ -93,6 +93,7 @@ body {
 
 .vinoLinkVerProducto {
   text-decoration: none;
+  color: black;
 }
 .tarjetaVerProducto {
   display: flex;
