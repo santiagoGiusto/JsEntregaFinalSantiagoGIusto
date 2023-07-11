@@ -4,7 +4,6 @@ fetch("js/productos.json")
 		const contenidoTintos = document.createElement("div");
 		contenidoTintos.classList.add("row");
     data.tintos.forEach((tinto) => {
-			console.log(tinto);
 			contenidoTintos.innerHTML += `
           <div class="col">
             <a class="vinoLinkVerProducto" href="ver-producto.html" onclick="verProducto(${tinto.id}, 'tintos')">
@@ -65,7 +64,6 @@ fetch("js/productos.json")
     const contenidoBlancos = document.createElement("div");
 		contenidoBlancos.classList.add("row");
 		data.blancos.forEach((blanco) => {
-			console.log(blanco);
 			contenidoBlancos.innerHTML += `
           <div class="col">
             <a class="vinoLinkVerProducto" href="ver-producto.html" onclick="verProducto(${blanco.id}, 'blancos')">
