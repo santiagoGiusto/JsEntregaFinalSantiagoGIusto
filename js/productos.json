@@ -6,7 +6,7 @@
         "categoria":"tintos",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-tinto.png",
         "precio":"2340.55",
-        "descripcion":"BACO Cabernet es un vino de marca reconocida que encarna la excelencia en cada sorbo. Con una intensidad aromática cautivadora, despliega una sinfonía de frutas negras maduras entrelazadas con sutiles matices especiados. En boca, su cuerpo robusto y equilibrado se revela plenamente, ofreciendo una experiencia sensorial inolvidable. Los sabores profundos de grosellas y cassis se entrelazan con taninos suaves, culminando en un final largo y elegante que deja una impresión duradera. Un vino Cabernet que celebra la pasión y el arte de la vinificación."
+        "descripcion":"Un vino que encarna la excelencia en cada sorbo. Con una intensidad aromática cautivadora, despliega una sinfonía de frutas negras maduras entrelazadas con sutiles matices especiados. En boca, su cuerpo robusto se revela plenamente, ofreciendo una experiencia sensorial inolvidable. Los sabores profundos de grosellas y cassis se entrelazan con taninos suaves, culminando en un final largo que deja una impresión duradera. Un vino que celebra la pasión y el arte de la vinificación."
      },
      {
         "id":2,
@@ -22,7 +22,7 @@
         "categoria":"tintos",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-tinto-tres.png",
         "precio":"3750.45",
-        "descripcion":"El Merlot de marca BACO es un vino excepcional que deleita los sentidos con su elegancia y profundidad. Con una nariz cautivadora de frutas maduras como ciruelas y moras, complementadas por sutiles notas de chocolate y vainilla, invita a un viaje sensorial. En boca, su textura sedosa y suave despliega sabores jugosos de cerezas negras y grosellas, envueltas en taninos suaves y bien integrados. El final prolongado y equilibrado deja una huella placentera y convierte a este Merlot en una elección perfecta para los amantes de los vinos de calidad."
+        "descripcion":"Un vino excepcional que deleita los sentidos con su elegancia y profundidad. Con una nariz cautivadora de frutas maduras como ciruelas y moras, complementadas por sutiles notas de chocolate y vainilla, invita a un viaje sensorial. En boca, su textura sedosa y suave despliega sabores jugosos de cerezas negras y grosellas, envueltas en taninos suaves y bien integrados. El final prolongado y equilibrado deja una huella placentera y convierte a este Merlot en una elección perfecta para los amantes de los vinos de calidad."
      },
      {
         "id":4,
@@ -30,7 +30,7 @@
         "categoria":"tintos",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-tinto-cuatro.png",
         "precio":"2000.00",
-        "descripcion":"El Malbec de marca BACO es un vino de carácter audaz y seductor. Con una intensidad aromática cautivadora, despliega notas de frutas maduras como ciruelas y moras, junto con toques especiados y sutiles pinceladas de vainilla. En boca, su cuerpo generoso y estructurado revela sabores profundos de frutas negras y matices de cacao, con taninos firmes pero suaves. Su final largo y persistente deja una impresión duradera y lo convierte en una elección apasionante para los amantes de los vinos intensos y expresivos."
+        "descripcion":"Un vino de carácter audaz y seductor. Con una intensidad aromática cautivadora, despliega notas de frutas maduras como ciruelas y moras, junto con toques especiados y sutiles pinceladas de vainilla. En boca, su cuerpo generoso y estructurado revela sabores profundos de frutas negras y matices de cacao, con taninos firmes pero suaves. Una elección apasionante para los amantes de los vinos intensos y expresivos."
      }
   ],
   "blancos":[
