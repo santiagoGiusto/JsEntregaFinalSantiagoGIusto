@@ -35,7 +35,7 @@
   ],
   "blancos":[
      {
-        "id":14,
+        "id":5,
         "nombre":"Baco Blanc",
         "categoria":"blanco",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-blanco.png",
@@ -43,7 +43,7 @@
         "descripcion":"El Cabernet Blanc de marca BACO es un vino blanco extraordinario que sorprende con su elegancia y frescura. Con una fragancia cautivadora de cítricos y frutas tropicales, se combina con delicadas notas herbáceas y florales. En boca, su cuerpo equilibrado revela sabores vibrantes de lima, piña y melón, con una acidez refrescante y una textura sedosa. Su final persistente y refrescante invita a seguir degustando. Este vino Cabernet Blanc es una elección perfecta para aquellos que buscan una experiencia fresca y sofisticada en cada sorbo."
      },
      {
-        "id":15,
+        "id":6,
         "nombre":"Baco Chardonnay",
         "categoria":"blanco",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-blanco-dos.png",
@@ -51,7 +51,7 @@
         "descripcion":"El Chardonnay de marca BACO es un vino blanco excepcional que combina elegancia y estructura. Su bouquet aromático cautiva con notas de frutas tropicales como piña y mango, complementadas por sutiles matices de vainilla y tostado. En boca, su textura sedosa y cremosa envuelve el paladar, revelando sabores de manzana verde, pera y cítricos, equilibrados por una refrescante acidez. Su final largo y vibrante deja una impresión duradera y convierte a este Chardonnay en una elección sofisticada para los amantes de los vinos blancos de calidad."
      },
      {
-        "id":16,
+        "id":7,
         "nombre":"Baco Champagne",
         "categoria":"espumantes",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-champagne.png",
@@ -59,7 +59,7 @@
         "descripcion":"El Champagne de marca BACO es una expresión exquisita del arte del espumoso. Con su elegancia y finura, despliega una cascada de burbujas delicadas y persistentes. Su bouquet aromático seduce con notas de manzana verde, pan tostado y sutiles matices de almendras. En boca, su textura cremosa y su acidez equilibrada brindan sabores frescos de cítricos y frutas blancas, culminando en un final largo y vibrante. Este Champagne encarna la celebración y el lujo en cada sorbo."
      },
      {
-        "id":17,
+        "id":8,
         "nombre":"Baco Sidra",
         "categoria":"espumantes",
         "imagen":"https://santiagogiusto.github.io/coderPreEntrega3/multimedia/img/-productos/vinos-sidra.png",

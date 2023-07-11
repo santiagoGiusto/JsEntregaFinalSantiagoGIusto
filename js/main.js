@@ -2,9 +2,7 @@ fetch("js/productos.json")
 	.then((res) => res.json())
 	.then((data) => {
 		const contenidoTintos = document.createElement("div");
-
 		contenidoTintos.classList.add("row");
-    
     data.tintos.forEach((tinto) => {
 			console.log(tinto);
 			contenidoTintos.innerHTML += `
@@ -64,7 +62,8 @@ fetch("js/productos.json")
 		});
     document.getElementById("contenidoTintos").appendChild(contenidoTintos); 
 
-
+    const contenidoBlancos = document.createElement("div");
+		contenidoBlancos.classList.add("row");
 		data.blancos.forEach((blanco) => {
 			console.log(blanco);
 			contenidoBlancos.innerHTML += `
@@ -122,7 +121,7 @@ fetch("js/productos.json")
         
 
 		});
-    document.getElementById("contenidoBlancos").appendChild(contenidoBlacos);
+    document.getElementById("contenidoBlancos").appendChild(contenidoBlancos);
   });
 
 
