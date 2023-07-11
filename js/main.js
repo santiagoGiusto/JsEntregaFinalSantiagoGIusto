@@ -6,12 +6,16 @@ fetch("js/productos.json")
     data.tintos.forEach((tinto) => {
 			contenidoTintos.innerHTML += `
           <div class="col">
-            <a class="vinoLinkVerProducto" href="ver-producto.html" onclick="verProducto(${tinto.id}, 'tintos')">
-              <div class="card text-center m-3 border border-0">
+            <a class="vinoLinkVerProducto">
+              <div class="card text-center m-3">
                 <img src="${tinto.imagen}" class="card-img-top" alt="${tinto.nombre}">
                 <div class="card-body">
                   <p class="card-text text-danger" id="precioTinto-${tinto.id}">${tinto.precio}</p>
-                  <h4 class="border-bottom border-dark w-50 m-auto" id="nombreTinto-${tinto.id}">${tinto.nombre}</h4>
+                  <h4 class="m-auto nombreProducto" id="nombreTinto-${tinto.id}">${tinto.nombre}</h4>
+                  <div class="botonProducto">
+                  <button class="btn btn-light btnProducto" onclick="verProducto(${tinto.id}, 'tintos')">Ver producto</button>
+                  <button class="btn btn-light btnProducto" onclick="agregarProducto(${tinto.id}, '${tinto.categoria}');">Comprar</button>
+                  </div>
                 </div>
               </div>
             </a>
@@ -55,10 +59,8 @@ fetch("js/productos.json")
           });  
 
         localStorage.setItem("tintos", JSON.stringify(data.tintos));
-
-        
-
 		});
+
     document.getElementById("contenidoTintos").appendChild(contenidoTintos); 
 
     const contenidoBlancos = document.createElement("div");
@@ -66,12 +68,16 @@ fetch("js/productos.json")
 		data.blancos.forEach((blanco) => {
 			contenidoBlancos.innerHTML += `
           <div class="col">
-            <a class="vinoLinkVerProducto" href="ver-producto.html" onclick="verProducto(${blanco.id}, 'blancos')">
-              <div class="card text-center m-3 border border-0">
+            <a class="vinoLinkVerProducto">
+              <div class="card text-center m-3">
                 <img src="${blanco.imagen}" class="card-img-top" alt="${blanco.nombre}">
                 <div class="card-body">
                   <p class="card-text text-danger" id="precioBlanco-${blanco.id}">${blanco.precio}</p>
-                  <h4 class="border-bottom border-dark w-75 m-auto" id="nombreBlanco-${blanco.id}">${blanco.nombre}</h4>
+                  <h4 class="m-auto nombreProducto" id="nombreBlanco-${blanco.id}">${blanco.nombre}</h4>
+                  <div class="botonProducto">
+                  <button class="btn btn-light btnProducto" onclick="verProducto(${blanco.id}, 'blancos')">Ver producto</button>
+                  <button class="btn btn-light btnProducto" onclick="agregarProducto(${blanco.id}, '${blanco.categoria}');">Comprar</button>
+                  </div>
                 </div>
               </div>
             </a>
@@ -115,13 +121,11 @@ fetch("js/productos.json")
           });  
 
         localStorage.setItem("blancos", JSON.stringify(data.blancos));
-
-        
-
 		});
-    document.getElementById("contenidoBlancos").appendChild(contenidoBlancos);
-  });
 
+    document.getElementById("contenidoBlancos").appendChild(contenidoBlancos);
+  
+  });
 
 renderBotonCarrito();
 

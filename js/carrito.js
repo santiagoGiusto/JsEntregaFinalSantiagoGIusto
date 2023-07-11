@@ -38,10 +38,7 @@ function renderProductos() {
 
     }
     document.getElementById("contenidoCarrito").innerHTML = contenido;
-
-    
 };
-
 
 renderProductos();
 renderBotonCarrito();

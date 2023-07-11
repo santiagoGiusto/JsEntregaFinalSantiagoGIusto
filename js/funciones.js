@@ -146,7 +146,7 @@ function verProducto (id, categoria) {
     let producto = productos.find(item => item.id == id);
     localStorage.setItem("producto", JSON.stringify(producto));
 
-    // location.href = "ver-producto.html"
+    location.href = "ver-producto.html"
 }
   
 

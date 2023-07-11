@@ -66,18 +66,28 @@ body {
 .catalogo-productos {
   width: 98%;
   margin: auto;
+  
 }
-.catalogo-productos .card {
+
+.vinoLinkVerProducto {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.card {
   transition: transform 0.5s;
+  border: 0;
+  position: relative;
 }
-.catalogo-productos .card:hover {
-  transform: scale(1.05);
+.card:hover {
+  transform: scale(1.11);
+  border: 1px solid black;
 }
 
 .descripcionProductoDiv {
   height: 45vh;
 }
-
 .vinosDescripcion {
   text-align: justify;
   font-size: large;
@@ -91,16 +101,49 @@ body {
   margin-top: 2%;
 }
 
-.vinoLinkVerProducto {
-  text-decoration: none;
-  color: black;
-}
 .tarjetaVerProducto {
   display: flex;
   gap: 2%;
   justify-content: center;
 }
+.nombreProducto {
+  width: fit-content;
+  position: relative;
+}
+.nombreProducto::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.nombreProducto::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.botonProducto {
+  display: none;
+}
 
+.card:hover .botonProducto{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 65%;
+  left: 9%;
+}
+
+.btnProducto {
+  border: 1px black solid;
+}
 
 .carritoLink {
   position: absolute;
@@ -166,8 +209,6 @@ body {
   
 }
 @media (min-width: 1024px) {
-  
-
   .cebra-dos {
     display: block;
     width: 100%;
