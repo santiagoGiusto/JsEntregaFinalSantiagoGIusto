@@ -122,3 +122,25 @@ function renderBlancos() {
   renderBlancos();
   
 renderBotonCarrito();
+
+
+fetch("js/productos.json")
+    .then(res => res.json())
+    .then(data => {
+        data.tintos.forEach(tinto => {
+          contenidoTintos += `
+          <div class="col">
+            <a class="vinoLinkVerProducto" href="ver-producto.html" onclick="verProducto(${tinto.id}, 'tintos')">
+              <div class="card text-center m-3 border border-0">
+                <img src="${tinto.imagen}" class="card-img-top" alt="${tinto.nombre}">
+                <div class="card-body">
+                  <p class="card-text text-danger" id="precioTinto-${tinto.id}"></p>
+                  <h4 class="border-bottom border-dark" id="nombreTinto-${tinto.id}"></h4>
+                </div>
+              </div>
+            </a>
+          </div>`;
+        })
+
+        document.getElementById("contenidoTintos").innerHTML = contenidoTintos;
+    })
