@@ -148,7 +148,19 @@ function verProducto (id, categoria) {
 
     location.href = "ver-producto.html"
 }
-  
+
+function gracias() {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Gracias!!!<br>Tu compra fue realizada con exito!',
+        showConfirmButton: false,
+        timer: 3000
+      });
+    localStorage.removeItem("carrito");
+    renderProductos();
+    renderBotonCarrito();
+}
 
 
 

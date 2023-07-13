@@ -158,6 +158,19 @@ body {
   margin-top: 5%;
 }
 
+.trash {
+  cursor: pointer;
+}
+
+.pagarBoton, .vaciarBoton {
+  width: 60%;
+}
+
+.tablaFinal {
+  height: 20px;
+}
+
+
 .volver {
   position: absolute;
   left: 3%;
